@@ -101,5 +101,19 @@ public class Product {
 		return "Product [pid=" + pid + ", name=" + name + ", brand=" + brand + ", madein=" + madein + ", price=" + price
 				+ "]";
 	 }
+
+	 public Product(Long pid, String name, String brand, String madein, float price) {
+		super();
+		this.pid = pid;
+		this.name = name;
+		this.brand = brand;
+		this.madein = madein;
+		this.price = price;
+	 }
+
+	 public Product() {
+
+	 }
+	 
 	 
 }
